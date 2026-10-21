@@ -1,7 +1,9 @@
- MERVEILLE SOLENE SOCKO DAMBA
+# MERVEILLE SOLENE SOCKO DAMBA
 
- Research Summary: AI Liability
-Introduction
+--------
+ # Research Summary: AI Liability
+----------- 
+## Introduction
 
 Artificial intelligence is increasingly used in healthcare, education, business, transportation, and software development. Although AI can improve efficiency and support decision-making, it can also produce incorrect, biased, or harmful outcomes.
 
