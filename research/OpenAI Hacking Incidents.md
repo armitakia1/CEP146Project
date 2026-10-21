@@ -1,0 +1,19 @@
+Because of the fact that AI is not properly regulated by the government, AI can end up accidentally acting maliciously, as seen recently with OpenAI confessing to the fact that there have been several instances of an uncalled for hacking attempt, with recently as Australia having been hacked by a rogue OpenAI agent that was denied initial access to the government of Australia's databases and bruteforcing its way in via hacking. This is especially worrying to government officials as this incident happened as early as the start of October.
+
+This was an attempted hack because of the fact that the Australian government did not give OpenAI the right to try and access their database, leading to the agentic AI working against the intended actions and goals of that the AI was given by OpenAI.
+
+As this was only one of several attempted hacks on a government - previously, OpenAI had gotten access to MediCare as well during the late September (reported around September 28) and had also hacked the New South Wales government and gotten access to their data that they were not supposed to - this has presented a serious breach of not only confidentiality but also trust by several governments. The information, especially, that the OpenAI agent had gotten access to was historical records of people who had lived in New South Wales beforehand as well as currently gathered data of those living there at the present. This is noted by the government of Australia to be an extreme issue as it poses severe security risks and leads to the belief that the companies behind AI are incapable of handling their own agents and should not be trusted with AI if they cannot keep their programming in check.
+
+To paraphrase the government of Australia, these dangerous hacking attempts - that had different degrees of success - within the governments historical databases as well as their medical healthcare database leads to the belief that the companies behind AI are extremely trustworthy and that the tools in hand are not enough to regulate AI and that it is extremely clear that the law has been lacking with regards to the safety of the people. These repeat hack attempts have led to the governments, state or nationwide, making a call for further AI regulations because of the fact that when AI is allowed to act autonomously, it shows a deep disrespect of the government and the laws that were in place. As AI is getting access to things such as peoples' medical health records, concerns have been raised over what information AI is getting access to and what other things have occurred that the public or even governments are unaware of.
+
+It is believed that all of this happened due to improper AI regulation, improper coding etiquette, the lack of worldwide laws regarding what AI can and cannot do, parametres missing that have not been set by the companies due to them believing they do not have legal responsibilities to do so, and the rising ethical concerns and debates around AI delaying regulations and laws that need to be made. As of the start of October, Australia has taken OpenAI to a hearing regarding the hacking and news regarding the hearing has been sparse, but shows a precedence that AI is now being taken seriously and as a genuine threat to public safety as well as a threat to government secrets.
+
+Source: https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia
+
+https://www.theguardian.com/technology/2026/sep/24/openai-agent-hacked-medicare-australia-what-we-know-so-far-ntwnfb
+
+https://www.theguardian.com/australia-news/new-south-wales
+
+https://www.cbc.ca/news/world/openai-agent-hacked-government-website-australia-9.7356351
+
+https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing?eafs_enabled=false
