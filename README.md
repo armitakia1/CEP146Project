@@ -29,6 +29,7 @@ Research contributions from the project members:
 [View Video Materials](video/)
 
 - [AI Autonomous Risks Video](video/AI-AUTONOMOUS-RISKS.mp4)
+- [AI Risks, accountability and Global Regulations](video/AI%20Risks,%20accountability%20and%20Global%20Regulations.pptx)
 
 ## Repository Structure
 
