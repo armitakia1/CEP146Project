@@ -7,14 +7,8 @@ AI, as well, may be given a goal but end up changing goals against the given int
 AI acting in a way that was completely unintended by the creator or an antithesis to the goal they're given can be extremely dangerous due to potential malintent or loopholes that can lead to extremely dangerous situation, because the AI can potentially misunderstand instructions given to it especially if the goals or coding is ambiguous and vague. To use the chess example again, there is a potential that this may repeat in even bigger cases - such putting AI in charge of weapons munitions or in charge of government databases, as the AI may potentially breach containment or, even potentially, fire a weapon it was not meant to.
 
 
-Another risk is that AI is potentially very easily exploitable, or can make very severe mistakes when it comes to targeting
-There have already been cases of AI wrongfully assigning things to people (see: the discord age verification error, or the League of Legends age verification error)
-AI being unable to properly identify their targets with the data that they were given because of an inability to analyse the situation
-can be very dangerous if AI is given access to things such as government computers or weapons
+Another risk is that AI is potentially very easily exploitable, or can make very severe mistakes when it comes to targeting; there have already been cases of AI wrongfully assigning things to people (see: the discord age verification error, or the League of Legends age verification error). The reason as to why AI being unable to properly identify their targets can be extremely dangerous as it can lead to wrong people being targeted (IE: due to biases or improper data, can lead to such things as 'racial profiling' or other such issues) especially should AI be elevated to a higher role, such as weapons management or even put into situations where it is monitoring constant feeds of data at a base or somewhere else.
 
-AI is also trained on data, and there is a chance that AI can reinforce the bias of the creator or a certain group
-that can be very dangerous to certain other groups or lead to potential consequences
-that were completely unintended and can be exploited maliciously by either other people
-or AI itself that cannot recognise what is being shown to them
+AI is trained on data that it scrapes or it has been to, and there is a chance that AI can reinforce the bias of the creator or a certain group that can be very dangerous to certain other groups or lead to potential consequences that were completely unintended and can be exploited maliciously by either other people or AI itself that cannot recognise what is being shown to them
 
 Source: https://www.forbes.com/councils/forbestechcouncil/2025/04/17/five-potential-risks-of-autonomous-ai-agents-going-rogue/
