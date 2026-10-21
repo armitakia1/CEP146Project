@@ -14,7 +14,7 @@ Research contributions from the project members:
 - [5 Risks of AI](research/5%20Risks%20of%20AI.md)
 - [AI Scientists Risk](research/AI%20Scientists%20Risk.md)
 - [AI Regulations in Other Countries](research/AI%20regulations%20in%20other%20countries%20and%20hot%20they%20compare.md)
-- [OpenAI Government Hacking](research/OpenAI%20Government%20Hacking.md)
+- [OpenAI Hacking Incidents](research/OpenAI%20Hacking%20Incidents.md)
 - [The US Approach to AI Regulation](research/US-AI-Regulation-Research.md)
 
 ## Sources and References
