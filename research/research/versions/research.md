@@ -4,7 +4,7 @@ Version 5 of 5
 Status: Done
 Author: Merveille Solene Socko Damba
 Last Update: October 19, 2026
-References: see [`SOURCES.md`](./SOURCES.md)
+
 
 ---
 
