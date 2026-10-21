@@ -85,6 +85,5 @@ United States. No single AI liability law appears in our sources. Cases run on e
 5. 2:25 to 3:00. The open question and a closing line.
 
 ## 9. Limits of this draft
-The Tesla appeal and the Workday case are still active, so their status may have changed since I wrote this. I read the abstract and part of the Matthias paper, not the whole article. Several 2026 Workday details come from the plaintiffs' lawyers, not the court. I couldn't find a source for the Uber settlement, so it isn't included.
 
-Comments are welcome in the pull request for this branch.
+I understood *Moffatt* and the EU Directive through secondary sources, and I still need to read the originals. Some sources are missing authors or dates. The Tesla and Workday cases are still moving and need rechecking before we record.
