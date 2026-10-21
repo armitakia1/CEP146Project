@@ -1,6 +1,6 @@
 # Who Is Legally Responsible When AI Does Something Unintended?
 
-Version 3 (snapshot of RESEARCH-DRAFT.md at that stage)
+Version 3 
 Author: Merveille Solene Socko Damba
 Last date Updated: October 19, 2026
 References: see [`SOURCES.md`](./SOURCES.md)
@@ -85,17 +85,6 @@ United States. No single AI liability law appears in our sources. Cases run on e
 5. 2:25 to 3:00. The open question and a closing line.
 
 ## 9. Limits of this draft
+The Tesla appeal and the Workday case are still active, so their status may have changed since I wrote this. I read the abstract and part of the Matthias paper, not the whole article. Several 2026 Workday details come from the plaintiffs' lawyers, not the court. I couldn't find a source for the Uber settlement, so it isn't included.
 
-We understood *Moffatt* and the EU Directive through secondary sources, and the primary documents still need to be opened. Several entries in `SOURCES.md` lack authors or exact dates. The *Benavides* and *Mobley* cases are still moving and must be rechecked right before recording. This draft was prepared with AI assistance, and a team member must check every fact against the sources.
-
----
-
-## How to comment and proofread
-
-Open the pull request for the branch `research-ai-liability`, go to Files changed and find `research/RESEARCH-DRAFT.md`. Hover over a line, click the blue plus sign and write your comment. Use Suggest changes to propose exact wording. When you finish, choose Review changes and select Comment, Approve or Request changes. Broader ideas belong in GitHub Discussions.
-
-- [ ] Does every factual claim have a source in `SOURCES.md`?
-- [ ] Is anything stated more strongly than its source supports?
-- [ ] Is it clear enough for a three-minute video?
-- [ ] Are there any spelling, grammar or APA errors?
-- [ ] Should we swap out the Character.AI example?
+Comments are welcome in the pull request for this branch.
