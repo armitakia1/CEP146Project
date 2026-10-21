@@ -1,6 +1,5 @@
 # Who Is Legally Responsible When AI Does Something Unintended?
 
-Version 5 of 5
 Status: Done
 Author: Merveille Solene Socko Damba
 Last Update: October 19, 2026
