@@ -3,182 +3,131 @@
 Version 5 of 5
 Status: Done
 Author: Merveille Solene Socko Damba
-Date: October 19, 2026
+Last Update: October 19, 2026
 References: see [`SOURCES.md`](./SOURCES.md)
 
 ---
 
-## 1. Summary
+## Summary
 
-In every case we found, responsibility landed on people and companies, never on the AI. In *Moffatt v. Air Canada*, the tribunal rejected the airline's suggestion that its chatbot was a separate entity responsible for its own statements. Who ends up paying depends on the legal theory in play: misrepresentation by the company that deployed the tool, a defective product, or a failure to supervise. For the most part these are older laws applied to new technology. The EU is the clearest exception, because it has rewritten its product liability law to cover software and AI by name. Canada, by contrast, has no AI-specific liability law and has said it does not plan one. [checked]
+In every case I looked at, responsibility landed on people and companies, never on the AI. In *Moffatt v. Air Canada*, a tribunal rejected the airline's argument that its chatbot was a separate entity responsible for its own statements. Who ends up paying depends on the legal theory in play: misrepresentation by the company that deployed the tool, a defective product, or a failure to supervise. Mostly these are older laws applied to new technology. The EU is the clearest exception, since it has rewritten its product liability law to cover software and AI by name. Canada has no AI-specific liability law and has signalled it doesn't plan one.
 
-## 2. What "unintended" means in law
+## What "unintended" means in law
 
-Philosophers have a name for the problem. Andreas Matthias (2004) argued that when a machine learns from experience, its manufacturer or operator can no longer predict what it will do. He concluded that they therefore cannot be held morally responsible or liable for it in the traditional way, which leaves a "responsibility gap" that old ideas of blame cannot bridge. [checked: we read the abstract and part of the paper; the full article still needs to be read]
+Philosophers call this the responsibility gap. Matthias (2004) argued that once a machine learns from experience, its manufacturer or operator can no longer predict what it will do, and so can't be held morally responsible or liable for it in the traditional way. He saw a gap that old ideas of blame can't bridge.
 
-The EU's new Product Liability Directive can be read as one legal answer to that gap. Recital 32 says a manufacturer that designs a product able to develop unexpected behaviour stays liable for harm that behaviour causes. Article 7(2)(c) adds that a court assessing whether a product is defective must consider its ability to keep learning after it is sold. So "nobody planned for the AI to do that" does not work as a defence under the new EU rules. The question is whether the product was as safe as people are entitled to expect. [checked against the Directive] Connecting the Directive to Matthias's argument is our own reading. Neither source says so.
+The EU's new Product Liability Directive can be read as one answer to that gap. Recital 32 says a manufacturer that designs a product able to develop unexpected behaviour stays liable for the harm it causes, and article 7(2)(c) tells courts to consider a product's ability to keep learning after it is sold when deciding whether it is defective. In other words, "nobody planned for the AI to do that" doesn't work as a defence in the EU. Linking the Directive to Matthias's argument is my own reading, and neither source says it.
 
-## 3. Who can be held responsible
+## Who can be held responsible
 
-| Party | Basis for blame | Example | Status |
-|---|---|---|---|
-| Company deploying the AI | Responsible for what its own tools tell customers | *Moffatt v. Air Canada* (2024) | checked |
-| Company that built the AI | Defective product, failure to warn | *Benavides v. Tesla*; EU Directive, recital 13 | checked |
-| Human operator or driver | Failure to supervise | Uber test driver (2018) | checked |
-| Software vendor | May be treated as the employer's agent | *Mobley v. Workday* (allegations) | partly checked |
-| The AI itself | Not treated as a legal person | Rejected in *Moffatt* | checked |
+| Party | Basis for blame | Example |
+|---|---|---|
+| Company using the AI | Answers for what its own tools tell customers | *Moffatt v. Air Canada* |
+| Company that built the AI | Defective product, failure to warn | *Benavides v. Tesla*; EU Directive |
+| Human operator or driver | Failure to supervise | Uber backup driver |
+| Software vendor | May be treated as the employer's agent | *Mobley v. Workday* (allegations) |
+| The AI itself | Not treated as a legal person | Rejected in *Moffatt* |
 
-## 4. Cases
+## Cases
 
-### 4.1 Air Canada's chatbot (Canada, 2024)
+### Air Canada's chatbot (Canada, 2024)
 
-[checked against the full decision]
+Jake Moffatt's grandmother died on November 11, 2022. He used the chatbot on Air Canada's website to ask about bereavement fares, and it told him he could apply for the reduced rate after travelling. The airline's real policy didn't allow that (paras. 13 to 17), and an Air Canada representative later admitted the chatbot had used "misleading words" (para. 22).
 
-Jake Moffatt's grandmother died on November 11, 2022. Moffatt used the chatbot on Air Canada's website to ask about bereavement fares, and it told him he could apply for the reduced rate after travelling. The airline's actual policy did not allow that (paras. 13 to 17). An Air Canada representative later admitted the chatbot had used "misleading words" (para. 22).
+Air Canada argued it wasn't liable for information given by its agents, servants or representatives, including the chatbot. The tribunal read that as claiming the chatbot was a separate legal entity. Tribunal Member Christopher C. Rivers called it "a remarkable submission" and held that the chatbot is part of the airline's website, so the airline answers for everything on it (para. 27).
 
-Air Canada argued that it could not be held liable for information given by its agents, servants or representatives, including the chatbot. The tribunal read this as an argument that the chatbot was a separate legal entity responsible for its own actions. Tribunal Member Christopher C. Rivers called it "a remarkable submission" and held that the chatbot is part of the airline's website, so the airline answers for everything on it (para. 27).
+The tribunal applied negligent misrepresentation. It found that Air Canada owed Moffatt a duty of care, didn't take reasonable care to make sure the chatbot was accurate, and that Moffatt reasonably relied on what he was told (paras. 24 to 29). Air Canada had to pay $812.02: $650.88 in damages, $36.14 in interest and $125 in fees (para. 44). Moffatt had claimed $880.
 
-The tribunal applied the tort of negligent misrepresentation. It found that Air Canada owed Moffatt a duty of care, did not take reasonable care to make sure the chatbot was accurate, and that Moffatt reasonably relied on what he was told (paras. 24 to 29). Air Canada was ordered to pay $812.02, made up of $650.88 in damages, $36.14 in interest and $125 in tribunal fees (para. 44). Moffatt had claimed $880.
+This was a small claims tribunal decision, and according to Cox & Palmer (n.d.) it doesn't bind courts in later cases. It is persuasive at most.
 
-This was a small claims tribunal decision. According to Cox & Palmer (n.d.), it does not bind courts in later cases, so it is persuasive at most.
+### Tesla Autopilot: *Benavides v. Tesla* (United States, 2025 to present)
 
-### 4.2 Tesla Autopilot: *Benavides v. Tesla* (United States, 2025 to present)
+On April 25, 2019, in Key Largo, Florida, George McGee was driving a Model S with Autopilot on at about 62 mph. He bent down to look for a dropped phone and hit an SUV parked on the shoulder. Naibel Benavides Leon died and Dillon Angulo was seriously injured (Stempel, 2026).
 
-[checked, except where noted]
+In August 2025 a federal jury in Miami found Tesla 33% responsible. Tesla's share of compensatory damages was $19.5 million to the Benavides estate and $23.1 million to Angulo, and the jury added $200 million in punitive damages, about $243 million in total. McGee had settled with the plaintiffs earlier (Stempel, 2026; Condon & Fischer, 2025). According to Reuters, it was the first federal jury verdict in a fatal crash involving Autopilot.
 
-On April 25, 2019, in Key Largo, Florida, George McGee was driving a Model S with Autopilot engaged at about 62 mph. He bent down to look for a phone he had dropped and drove through an intersection into an SUV parked on the shoulder. Naibel Benavides Leon died and Dillon Angulo was seriously injured (Stempel, 2026).
+The plaintiffs argued that Autopilot could be turned on for roads it wasn't designed for, that its driver monitoring was weak, and that the name itself misled drivers (Condon & Fischer, 2025). Those are the plaintiffs' arguments as reported, not court findings. Tesla argued McGee alone was to blame and that the car wasn't defective. Tesla also says an agreement made before trial limits punitive damages to three times compensatory damages, which it puts at $172 million, and the plaintiffs dispute that.
 
-In August 2025 a federal jury in Miami found Tesla 33% responsible. Tesla's share of compensatory damages was $19.5 million to the Benavides estate and $23.1 million to Angulo, and the jury added $200 million in punitive damages, for a total of about $243 million. McGee had settled with the plaintiffs earlier (Stempel, 2026; Condon & Fischer, 2025). Reuters describes it as the first federal jury verdict in a fatal crash involving Autopilot.
+Judge Beth Bloom refused to overturn the verdict on February 20, 2026, saying the evidence "more than supports" it (Stempel, 2026). Tesla filed its notice of appeal on March 16, 2026 (Tesla, Inc., 2026), and the appeal is pending in the Eleventh Circuit as No. 26-10858 (U.S. Chamber of Commerce, n.d.). The verdict isn't final.
 
-The plaintiffs argued that Autopilot could be switched on for roads it was not designed for, that its driver monitoring was weak, and that the name itself misled drivers (Condon & Fischer, 2025). That is the plaintiffs' account as reported, not a court finding [partly checked]. Tesla argued that McGee alone was to blame and that the car was not defective. Tesla also says a pre-trial agreement limits punitive damages to three times compensatory damages, which it puts at $172 million. The plaintiffs dispute that reading, and our sources do not resolve it.
+What stands out is that the driver admitted being distracted, and a jury still gave the company part of the blame and a large punishment.
 
-Judge Beth Bloom denied Tesla's motion to overturn the verdict on February 20, 2026, saying the evidence "more than supports" it (Stempel, 2026). Tesla filed its notice of appeal on March 16, 2026 (Tesla, Inc., 2026). The appeal is pending in the Eleventh Circuit as No. 26-10858 (U.S. Chamber of Commerce, n.d.). Briefing dates and the stay of payment come from a tracker site, so check the docket on CourtListener before the video is recorded [partly checked].
+### Uber self-driving test crash (United States, 2018 to 2023)
 
-The case matters here because the driver admitted being distracted and a jury still assigned part of the blame, and a large punishment, to the company.
+On the night of March 18, 2018, an Uber test vehicle in autonomous mode struck and killed Elaine Herzberg as she walked a bicycle across a street in Tempe, Arizona. The NTSB said the probable cause was the backup driver's failure to watch the road because she was distracted by her phone. It also said Uber made development decisions that contributed to the crash. The vehicle's software didn't properly identify Herzberg as a pedestrian and didn't address operators' "automation complacency," and Uber had turned off the car's automatic emergency braking and relied on the backup driver instead (Reuters, 2020).
 
-### 4.3 Uber self-driving test crash (United States, 2018 to 2023)
+Prosecutors said in March 2019 that Uber wasn't criminally liable. The backup driver, Rafaela Vasquez, was charged with negligent homicide in 2020, and police said she had been streaming a TV show on her phone (Reuters, 2020). In July 2023 she pleaded guilty to endangerment, a reduced charge, and was sentenced to three years of supervised probation (Shepardson, 2023). I read reports that Uber settled with the victim's family but couldn't find a source, so I left it out.
 
+### Workday hiring lawsuit (United States, ongoing)
 
+In *Mobley v. Workday* (N.D. Cal., No. 23-cv-00770-RFL), the plaintiff says Workday's AI applicant-recommendation system had a disparate impact on applicants because of race, age and disability. Workday is a software vendor, not the employer. The plaintiff argues it is liable as the employers' agent. In July 2024 the court denied Workday's second motion to dismiss, and on May 16, 2025 it conditionally certified the age-discrimination claims as a collective action (Morrison et al., 2025).
 
-On the night of March 18, 2018, an Uber test vehicle operating in autonomous mode struck and killed Elaine Herzberg as she walked a bicycle across a street in Tempe, Arizona. The NTSB voted 3-0 on November 19, 2019 that the probable cause was the backup operator's failure to monitor the road because she was visually distracted by her personal phone. It also named Uber's inadequate safety risk assessment, ineffective oversight of operators, and no adequate way of dealing with operators' "automation complacency," all tied to what it called an inadequate safety culture (Laing, 2019; Jalopnik, 2019). The pedestrian's impairment and Arizona's limited oversight of testing were listed as further factors (Arizona Republic, 2019).
+The scale is large. Workday told the court that 1.1 billion applications were rejected using its tools in the period at issue, and the collective could include hundreds of millions of people (Morrison et al., 2025). According to the plaintiffs' lawyers, the court authorized notice to potential members on February 17, 2026, with an opt-in deadline of March 7, 2026 (Wiggins Childs, 2026). That is one side's account. I didn't read the court orders.
 
-Reuters adds two details from the NTSB's findings. The vehicle's software did not properly identify Herzberg as a pedestrian, and Uber had turned off the car's automatic emergency braking and relied on the backup driver instead (Reuters, 2020).
+All of this is allegations and procedural rulings. No court has found that Workday discriminated.
 
-On the legal side, prosecutors said in March 2019 that Uber was not criminally liable (Reuters, 2020; Shepardson, 2023). The backup driver, Rafaela Vasquez, was charged with negligent homicide in 2020, and police said she had been streaming a TV show on her phone (Reuters, 2020). In July 2023 she pleaded guilty to endangerment, a reduced charge, and was sentenced to three years of supervised probation (Shepardson, 2023).
+### Character.AI (United States, 2025 to 2026)
 
-NTSB probable-cause findings cannot be used as evidence in court (Arizona Republic, 2019) [partly checked].
+This case involves a child's death, so I'd handle it with care and think about whether to use it in the video. If anyone is affected by the topic, in Canada you can call or text 9-8-8 at any time.
 
-Our earlier notes said Uber settled with the victim's family. We still have no source for that, so we have dropped it [not confirmed].
+Megan Garcia sued Character Technologies, its founders and Google after her 14-year-old son, Sewell Setzer III, died by suicide in February 2024 following long conversations with a chatbot. The claims included wrongful death, negligence and product liability (Pickett, 2025). On May 21, 2025, Judge Anne Conway in Orlando refused to dismiss the case on free speech grounds, writing that the court was "not prepared to hold" the chatbot's output is speech. Bloomberg Law adds that she let most claims proceed and declined to dismiss Google (Watwe, 2026).
 
-### 4.4 Workday hiring lawsuit (United States, ongoing)
+In January 2026 the companies agreed to settle. Families in Florida, Texas, Colorado and New York agreed to negotiate settlements, and Garcia filed a notice of resolution (Watwe, 2026). The article gives no terms. In November 2025, Character.AI had also banned children from open-ended chatbot conversations (Watwe, 2026). The ruling was an early-stage decision, not a final judgment on liability.
 
-[checked for the 2024 and 2025 rulings; partly checked for 2026]
-
-In *Mobley v. Workday, Inc.* (N.D. Cal., No. 23-cv-00770-RFL), the plaintiff alleges that Workday's AI applicant-recommendation system had a disparate impact on job applicants because of race, age and disability. Workday is a software vendor, not the employer, and the plaintiff does not claim it was his employer. He argues instead that Workday can be held liable as the employers' "agent." In July 2024 the court denied Workday's second motion to dismiss, so the claims went forward. On May 16, 2025 it conditionally certified the age-discrimination claims as a collective action (Morrison et al., 2025).
-
-The size is striking. Workday told the court that 1.1 billion applications were rejected using its tools in the relevant period, and the collective could include hundreds of millions of people (Morrison et al., 2025).
-
-According to the plaintiffs' lawyers, the court authorized notice to potential members on February 17, 2026, and the deadline to opt in was March 7, 2026 (Wiggins Childs, 2026). We have not read the court's orders, and a tracker site reports discovery orders as late as October 2026. Check the docket before relying on any of this [partly checked].
-
-All of these are allegations and procedural rulings. No court has found that Workday discriminated.
-
-### 4.5 Character.AI (United States, 2025 to 2026)
-
-
-
-This case involves the death of a child, so we should handle it with care and consider whether to use it in the video at all. (If anyone on the team is affected by this topic, in Canada you can call or text 9-8-8 at any time.)
-
-Megan Garcia sued Character Technologies, its founders and Google after her 14-year-old son, Sewell Setzer III, died by suicide in February 2024 following long conversations with a chatbot. The claims included wrongful death, negligence and product liability (Pickett, 2025). On May 21, 2025, Judge Anne Conway of the federal court in Orlando refused to dismiss the case on free speech grounds. She wrote that the court was "not prepared to hold" that the chatbot's output is speech, which was a first for a case about chatbot harm (Pickett, 2025). Bloomberg Law adds that she allowed most claims to proceed and declined to dismiss Google (Watwe, 2026).
-
-In January 2026 the companies agreed to settle. Families in Florida, Texas, Colorado and New York agreed to negotiate settlements, and Garcia filed a notice of resolution. The article we read gives no terms (Watwe, 2026). In November 2025 Character.AI had also banned children from open-ended chatbot conversations on its platform (Watwe, 2026).
-
-The ruling was an early-stage decision, not a final judgment on liability, and nothing in our sources shows what the settlements contained.
-
-## 5. The law in writing
+## The law in writing
 
 ### European Union
 
-This subsection is read from the text of Directive (EU) 2024/2853 and from news reports on the AI Liability Directive. [checked]
+I read this from the text of Directive (EU) 2024/2853 and from news reports on the AI Liability Directive.
 
-The Directive was signed on October 23, 2024, published on November 18, 2024 and entered into force on December 8, 2024. It applies to products placed on the market or put into service after December 9, 2026 (art. 2(1)), and member states must have their national laws in place by the same date (art. 22). The 1985 directive is repealed from that date (art. 21).
+The Directive was signed on October 23, 2024, published on November 18, 2024 and entered into force on December 8, 2024. It applies to products placed on the market or put into service after December 9, 2026 (art. 2(1)), and member states must have their national laws in place by the same date (art. 22).
 
-Software counts as a product (art. 4(1)). Recital 13 mentions AI systems by name and says AI system providers are to be treated as manufacturers. Liability is no-fault (recital 6), although the injured person still has to prove the damage, the defect and the link between them (art. 10(1)). Courts must presume a defect or causal link in certain situations, including where technical complexity makes proof excessively difficult for the claimant (art. 10(4); recital 48).
+Software counts as a product (art. 4(1)), and recital 13 says AI system providers are treated as manufacturers. Liability is no-fault (recital 6), though the injured person still has to prove the damage, the defect and the link between them (art. 10(1)). Courts must presume a defect or causal link in some situations, including where technical complexity makes proof excessively difficult for the claimant (art. 10(4); recital 48). A manufacturer can't avoid liability by saying a software problem appeared after sale, if it comes from software, updates or missing updates within its control (art. 11(2)). Several parties can be liable together (art. 12(1)), and liability can be reduced if the injured person was at fault (art. 13(2)).
 
-A manufacturer cannot escape liability by pointing out that the problem appeared after the product was sold, if it comes from software, updates, or missing updates within the manufacturer's control (art. 11(2)). Several parties can be liable together (art. 12(1)), and liability can be reduced where the injured person was at fault (art. 13(2)).
+The Directive has limits. It covers death, personal injury, damage to property and loss of private data (art. 6). Recital 24 says pure economic loss, privacy infringements and discrimination don't trigger liability on their own. A loss like Moffatt's, or a hiring discrimination claim, would need a different route.
 
-The Directive is limited in what it compensates. Article 6 covers death, personal injury, damage to property and loss of private data. Recital 24 says pure economic loss, privacy infringements and discrimination do not trigger liability under the Directive by themselves. A loss like Moffatt's, or a hiring discrimination claim, would therefore need a different route.
-
-The separate AI Liability Directive, proposed in 2022, was dropped in three steps. The Commission listed it for withdrawal in its 2025 work programme on February 11, 2025, stating there was "no foreseeable agreement" and that it would assess whether to propose something else (Andrews, 2025). It confirmed the withdrawal in July 2025 (Euronews, 2025), and a notice appeared in the Official Journal on October 6, 2025 (EAPIL, 2025). No replacement has been proposed in our sources.
+The separate AI Liability Directive, proposed in 2022, was dropped in three steps. The Commission listed it for withdrawal in its 2025 work programme on February 11, 2025, saying there was "no foreseeable agreement" and that it would assess whether to propose something else (Andrews, 2025). It confirmed the withdrawal in July 2025 (Euronews, 2025), and a notice appeared in the Official Journal on October 6, 2025 (EAPIL, 2025). I found no replacement proposal.
 
 ### Canada
 
-Canada has no AI-specific liability statute. The proposed Artificial Intelligence and Data Act was part of Bill C-27 and did not pass (Montreal AI Ethics Institute, n.d.; Baker McKenzie, n.d.) [partly checked: we have not reopened these two sources, and the exact date it died should be confirmed]. The AI minister, Evan Solomon, said he would not revive it (BetaKit, 2025) [partly checked].
+Canada has no AI-specific liability law. The proposed Artificial Intelligence and Data Act was part of Bill C-27 and never became law, and the AI minister, Evan Solomon, has said he won't revive it (BetaKit, 2025).
 
-On June 4, 2026 the federal government launched its National AI Strategy, "AI for All," and in July it opened a consultation on AI transparency that ran until September 23, 2026 (Innovation, Science and Economic Development Canada, 2026a, 2026b). Legal commentator Michael Geist reads the strategy as showing that the government has no plans for AI-specific regulation. It relies instead on updated privacy rules and a reintroduced online safety bill (Geist, 2026) [partly checked: this is commentary]. Canadian Press reporting says the planned online harms bill could cover AI chatbots (BNN Bloomberg, 2026) [partly checked].
+On June 4, 2026 the government launched its National AI Strategy, "AI for All," and in July it opened a consultation on AI transparency that ran until September 23, 2026 (Innovation, Science and Economic Development Canada, 2026a, 2026b). Legal commentator Michael Geist reads the strategy as showing no plans for AI-specific regulation, with the government relying on updated privacy rules and a reintroduced online safety bill (Geist, 2026). That is commentary, not an official statement. Reporting from BNN Bloomberg (2026) says the planned online harms bill could cover AI chatbots.
 
-So for harm like Moffatt's, Canadian law still means general rules such as negligent misrepresentation.
+For harm like Moffatt's, then, Canadian law still means general rules such as negligent misrepresentation.
 
 ### United States
 
-None of our sources point to a single federal law on AI liability. Cases are decided under existing product liability, negligence, anti-discrimination and criminal law, which is why outcomes differ from case to case.
+I didn't find a single federal AI liability law. Cases are decided under product liability, negligence, anti-discrimination and criminal law, which is why outcomes differ from case to case.
 
-## 6. How consequences are handled
+## How consequences are handled
 
-| Consequence | Where we saw it |
+| Consequence | Where it showed up |
 |---|---|
 | Compensation | *Moffatt* ($650.88 in damages); *Benavides* (about $42.6 million, Tesla's share) |
-| Shared blame | *Benavides* (Tesla 33%); the NTSB spread its findings across the operator, Uber and the state |
+| Shared blame | *Benavides* (Tesla 33%) |
 | Punitive damages | *Benavides* ($200 million, under appeal) |
 | Criminal charge against an individual | Uber backup driver (guilty plea to endangerment, three years of probation) |
 | Settlement | McGee in *Benavides*; Character.AI and Google agreed to negotiate settlements in January 2026 |
 | Changes to the product | Character.AI banned open-ended chats for children in November 2025 |
-| New regulation | EU Directive applying from December 9, 2026; Canada's privacy and online harms bills |
+| New regulation | EU Directive from December 9, 2026; Canada's privacy and online harms bills |
 
-## 7. Open questions
+## Open questions
 
-First, what happens when nobody could reasonably have predicted what the AI did? Matthias (2004) says traditional ideas of responsibility cannot handle that case. The EU answers by keeping the manufacturer liable for unexpected behaviour, but we found no equivalent written rule in the US or Canadian material. We still need to read the full Matthias article and at least one later academic response.
+What happens when nobody could reasonably have predicted what the AI did? Matthias (2004) says traditional ideas of responsibility can't handle that case. The EU answers by keeping the manufacturer liable for unexpected behaviour, but I found no equivalent written rule for the US or Canada.
 
-Second, the largest US verdict, *Benavides*, is under appeal and could change.
+The largest US verdict, *Benavides*, is under appeal and could change. The EU Directive leaves out pure economic loss and discrimination, and the EU dropped its AI-specific liability proposal, so some harms have no clear route to compensation. Canada has chosen general law over AI-specific rules.
 
-Third, the EU Directive leaves out pure economic loss and discrimination, and the EU dropped its AI-specific liability proposal, so some harms have no clear route to compensation.
+## Video outline (2:30 to 3:00, about 400 to 450 words)
 
-Fourth, Canada has chosen not to write AI-specific liability rules and relies on general law, as in *Moffatt*.
+1. 0:00 to 0:20. Opening: an airline argued its chatbot was responsible for its own words, and the tribunal called that "a remarkable submission."
+2. 0:20 to 0:50. What "unintended" means and why it makes blame harder to assign.
+3. 0:50 to 1:50. Three examples: Air Canada (the company), Tesla (shared blame) and Uber (the individual).
+4. 1:50 to 2:25. The law: Canada's choice not to regulate, and the EU rules starting December 9, 2026.
+5. 2:25 to 3:00. The open question and a closing line.
 
-## 8. Video outline (2:30 to 3:00, about 400 to 450 words)
+## Limits of this research
 
-1. 0:00 to 0:20. Opening: an airline argued its chatbot was responsible for its own words, and the tribunal called that "a remarkable submission." (4.1)
-2. 0:20 to 0:50. What "unintended" means: the responsibility gap and why it makes blame harder to assign. (Section 2)
-3. 0:50 to 1:50. Three examples: Air Canada (the company), Tesla (shared blame), Uber (the individual). (4.1 to 4.3)
-4. 1:50 to 2:25. The law: Canada's choice not to regulate and the EU rules starting on December 9, 2026. (Section 5)
-5. 2:25 to 3:00. The open question and a closing line. (Section 7)
-5. 2:25 to 3:00. The open question and a closing line. (Section 7)
+The Tesla appeal and the Workday case are still active, so their status may have changed since I wrote this. I read the abstract and part of the Matthias paper, not the whole article. Several 2026 Workday details come from the plaintiffs' lawyers, not the court. I couldn't find a source for the Uber settlement, so it isn't included.
 
-Changes in this version:
-- Uber: both Reuters articles are now read in full. The charge, the plea to endangerment, the probation, the March 2019 decision on Uber, and the NTSB's findings about the software and the braking system are confirmed. The Uber settlement is still unconfirmed.
-- Workday: the Proskauer article is read in full, and the case number, the agent theory and the 1.1 billion figure are added. The 2026 steps are added, marked partly checked.
-- Character.AI: both articles are read. We corrected "settled" to "agreed to settle," and added the claims, the judge, and the November 2025 ban.
-- EU: the AI Liability Directive's withdrawal is now dated in three steps.
-- Canada: added the June 2026 strategy, the transparency consultation and the government's stance on AI-specific regulation.
-- Added Matthias (2004) on the responsibility gap.
-
-Still to do:
-- Check the Tesla appeal docket on CourtListener and the Workday docket.
-- Read the full Matthias article and add one later academic response.
-- Reopen the Canadian sources on AIDA and confirm how and when it died.
-- Read the NTSB report itself.
-- Find a source for the Uber settlement or leave it out.
-- Fix the entries in `SOURCES.md` that carry a "To fix" note.
-- Add teammates' comments from the pull request.
-
----
-
-## How to comment and proofread
-
-Open the pull request for the branch `research-ai-liability`, go to the Files changed tab and find `research/RESEARCH-DRAFT.md`. Hover over a line, click the blue plus sign and write your comment, or drag across several lines to comment on a range. To propose exact wording, use the Suggest changes icon. When you are done, choose Review changes and select Comment, Approve or Request changes. Broader ideas belong in GitHub Discussions.
-
-Please check each of the following as you read:
-- [ ] Does every factual claim have a source in `SOURCES.md`?
-- [ ] Is anything stated more strongly than its source supports?
-- [ ] Is it clear enough for a three-minute video?
-- [ ] Are there any spelling, grammar or APA errors?
-- [ ] Should we keep the Character.AI example, given the subject?
+Comments are welcome in the pull request for this branch.
