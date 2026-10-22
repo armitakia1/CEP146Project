@@ -23,7 +23,7 @@ Research contributions from the project members:
 
 - [AI Autonomy Risks Sources](sources/SOURCES-AI-AUTONOMY-RISKS.md)
 - [US AI Regulation Sources](sources/SOURCES-US-AI-REGULATION.md)
-- [AI Liability](research/research/versions/sources.md)
+- [AI Liability](research/SOURCES.md)
 ## Video Presentation
 
 [View Video Materials](video/)
