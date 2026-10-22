@@ -25,7 +25,11 @@ Research contributions from the project members:
 - [AI Autonomy Risks Sources](sources/SOURCES-AI-AUTONOMY-RISKS.md)
 - [US AI Regulation Sources](sources/SOURCES-US-AI-REGULATION.md)
 - [AI Liability](https://github.com/armitakia1/CEP146Project/blob/research-ai-liability/research/SOURCES.md)
+
+
 ## Video Presentation
+
+[YouTube Presentation]()
 
 [View Video Materials](video/)
 
