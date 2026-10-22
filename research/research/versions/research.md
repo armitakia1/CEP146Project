@@ -117,13 +117,6 @@ What happens when nobody could reasonably have predicted what the AI did? Matthi
 
 The largest US verdict, *Benavides*, is under appeal and could change. The EU Directive leaves out pure economic loss and discrimination, and the EU dropped its AI-specific liability proposal, so some harms have no clear route to compensation. Canada has chosen general law over AI-specific rules.
 
-## Video outline (2:30 to 3:00, about 400 to 450 words)
-
-1. 0:00 to 0:20. Opening: an airline argued its chatbot was responsible for its own words, and the tribunal called that "a remarkable submission."
-2. 0:20 to 0:50. What "unintended" means and why it makes blame harder to assign.
-3. 0:50 to 1:50. Three examples: Air Canada (the company), Tesla (shared blame) and Uber (the individual).
-4. 1:50 to 2:25. The law: Canada's choice not to regulate, and the EU rules starting December 9, 2026.
-5. 2:25 to 3:00. The open question and a closing line.
 
 ## Limits of this research
 
