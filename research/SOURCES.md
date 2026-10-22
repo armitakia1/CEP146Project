@@ -9,8 +9,8 @@ https://iapp.org/news/a/european-commission-withdraws-ai-liability-directive-fro
 
 
 BetaKit. (2025). Evan Solomon teases new AI laws as experts warn Canada
-----
 is behind international peers.
+---
 https://betakit.com/evan-solomon-teases-new-ai-laws-as-experts-warn-canada-is-behind-international-peers/
 
 
@@ -33,8 +33,8 @@ https://coxandpalmerlaw.com/insights/navigating-artificial-intelligence-liabilit
 
 Directive (EU) 2024/2853 of the European Parliament and of the Council
 of 23 October 2024 on liability for defective products and repealing
------
 Council Directive 85/374/EEC, 2024 O.J. (L 2853).
+---
 https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng
 
 
@@ -74,11 +74,13 @@ https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/go
 
 Matthias, A. (2004). The responsibility gap: Ascribing responsibility
 for the actions of learning automata. Ethics and Information
----
 Technology, 6(3), 175--183. https://doi.org/10.1007/s10676-004-3422-1
-
-Moffatt v. Air Canada, 2024 BCCRT 149. https://canlii.ca/t/k2spq
 ---
+
+Moffatt v. Air Canada, 2024 BCCRT 149.
+---
+https://canlii.ca/t/k2spq
+
 
 Morrison, D. M., Brenner, G., & Slowik, J. P. (2025, June 11). AI bias
 lawsuit against Workday reaches next stage as court grants conditional
