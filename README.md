@@ -29,7 +29,7 @@ Research contributions from the project members:
 
 ## Video Presentation
 
-[YouTube Presentation]()
+[YouTube Presentation](https://youtu.be/Zx7NxPifoTE)
 
 - [View Video Materials](video/)
 
