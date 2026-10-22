@@ -16,14 +16,15 @@ Research contributions from the project members:
 - [AI Regulations in Other Countries](research/AI%20regulations%20in%20other%20countries%20and%20hot%20they%20compare.md)
 - [OpenAI Hacking Incidents](research/OpenAI%20Hacking%20Incidents.md)
 - [The US Approach to AI Regulation](research/US-AI-Regulation-Research.md)
-- [AI Liability](research/research/versions/research.md)
+- [AI Liability](https://github.com/armitakia1/CEP146Project/blob/research-ai-liability/research/research/versions/research.md)
+
 ## Sources and References
 
 [View All Sources](sources/)
 
 - [AI Autonomy Risks Sources](sources/SOURCES-AI-AUTONOMY-RISKS.md)
 - [US AI Regulation Sources](sources/SOURCES-US-AI-REGULATION.md)
-- [AI Liability](research/SOURCES.md)
+- [AI Liability](https://github.com/armitakia1/CEP146Project/blob/research-ai-liability/research/SOURCES.md)
 ## Video Presentation
 
 [View Video Materials](video/)
