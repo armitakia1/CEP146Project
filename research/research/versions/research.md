@@ -7,7 +7,7 @@ Last Update: October 19, 2026
 
 ---
 
-## Summary
+## AI Liability research version
 
 In every case I looked at, responsibility landed on people and companies, never on the AI. In *Moffatt v. Air Canada*, a tribunal rejected the airline's argument that its chatbot was a separate entity responsible for its own statements. Who ends up paying depends on the legal theory in play: misrepresentation by the company that deployed the tool, a defective product, or a failure to supervise. Mostly these are older laws applied to new technology. The EU is the clearest exception, since it has rewritten its product liability law to cover software and AI by name. Canada has no AI-specific liability law and has signalled it doesn't plan one.
 
